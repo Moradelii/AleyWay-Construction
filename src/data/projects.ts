@@ -1,0 +1,98 @@
+import { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    slug: 'arbor-valley',
+    title: 'Arbor Valley',
+    subtitle: 'A Curated Custom Home Neighborhood',
+    location: 'Valley Center, Kansas',
+    type: 'Master Planned Custom Enclave',
+    description: 'A serene 20+ home custom community featuring spacious half-acre homesites, architectural design guidelines, and versatile foundation options tailored to Kansas soils.',
+    longDescription: 'Arbor Valley represents Aley Way Construction’s flagship neighborhood development in Valley Center, Kansas. Designed to balance countryside serenity with immediate access to Wichita amenities, Arbor Valley encompasses 20+ dedicated homesites, each averaging approximately half an acre. Homeowners collaborate directly with Derek and Xiochil Blades to create a home that respects topography, orientation, and personal lifestyle.',
+    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85',
+    images: [
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85',
+    ],
+    specs: [
+      { label: 'Total Homesites', value: '20+ Custom Lots' },
+      { label: 'Lot Sizing', value: 'Approx. 0.50 Acre Each' },
+      { label: 'Location', value: 'Valley Center, KS (Sedgwick County)' },
+      { label: 'Foundation Options', value: 'Full Basement, Daylight, or Slab-on-Grade' },
+      { label: 'School District', value: 'Valley Center USD 262' },
+      { label: 'Pricing Model', value: 'Open-Book Builder Cost Plus' },
+    ],
+    highlights: [
+      'Generous half-acre sites with room for detached shops or custom pools',
+      'Engineered foundation options adapted to local geological conditions',
+      'Paved streets, municipal water, and modern fiber connectivity',
+      'Architectural review protecting long-term neighborhood value',
+      'Direct builder accessibility from lot selection to key turnover',
+    ],
+    status: 'available',
+    isFeatured: true,
+    hasVerifiedData: true,
+  },
+  {
+    slug: 'the-cedar-ridge-residence',
+    title: 'The Cedar Ridge Residence',
+    subtitle: 'Modern Prairie One-Story Living',
+    location: 'Wichita (East Perimeter), Kansas',
+    type: 'Custom Single-Family Home',
+    description: 'An expansive open-concept residence balancing low-maintenance board-and-batten siding with warm Kansas limestone and expansive glass walls.',
+    longDescription: 'Positioned on an undulating site east of Wichita, the Cedar Ridge Residence exemplifies custom architectural balance. Designed for seamless one-level living, the layout centers around a central living pavilion flanked by a private primary wing and an entertainer’s kitchen with concealed scullery.',
+    heroImage: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=85',
+    images: [
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=85',
+    ],
+    specs: [
+      { label: 'Living Space', value: '3,450 Finished Sq Ft' },
+      { label: 'Bedrooms / Baths', value: '4 Beds / 3.5 Baths' },
+      { label: 'Garage', value: '3-Car Insulated Side-Load' },
+      { label: 'Foundation', value: 'Finished Basement with Safe Room' },
+    ],
+    highlights: [
+      'Open-concept kitchen with rift-sawn white oak millwork',
+      'Zero-entry primary walk-in shower with curbless linear drain',
+      'Covered rear patio with outdoor gas fireplace and ceiling heaters',
+      'High-efficiency spray foam insulation envelope',
+    ],
+    status: 'completed',
+    isFeatured: true,
+    hasVerifiedData: false, // Explicit architectural case study placeholder
+  },
+  {
+    slug: 'the-prairie-view-estate',
+    title: 'The Prairie View Estate',
+    subtitle: 'Transitional Farmhouse on Acreage',
+    location: 'Valley Center, Kansas',
+    type: 'Private Acreage Custom Build',
+    description: 'A custom transitional farmhouse created to frame broad sunset views across Kansas farmland, pairing exposed timber posts with clean architectural lines.',
+    longDescription: 'Commissioned on a 3-acre private homestead in Valley Center, this residence demonstrates our commitment to site-specific building. Every window was positioned during framing to capture cross-breezes and pastoral views.',
+    heroImage: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=85',
+    images: [
+      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1400&q=85',
+    ],
+    specs: [
+      { label: 'Living Space', value: '4,100 Finished Sq Ft' },
+      { label: 'Bedrooms / Baths', value: '5 Beds / 4.5 Baths' },
+      { label: 'Site Area', value: '3.2 Wooded Acres' },
+      { label: 'Special Features', value: 'Detached Outbuilding / Heated Shop' },
+    ],
+    highlights: [
+      'Dramatic vaulted great room with hand-hewn structural timber truss',
+      'Chef-grade appliance suite with dedicated pantry prep sink',
+      'Geothermal climate system engineered for maximum annual efficiency',
+      'Custom mudroom with individual locker storage and pet wash',
+    ],
+    status: 'completed',
+    isFeatured: true,
+    hasVerifiedData: false, // Clearly labeled architectural model
+  },
+];
