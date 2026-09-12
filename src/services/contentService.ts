@@ -225,7 +225,7 @@ const defaultInitialContent: CmsDatabase = {
   home: {
     hero: {
       eyebrow: 'Custom Home Builder • Wichita & Valley Center, KS',
-      titleLine1: "Build a Home That's",
+      titleLine1: "Build a Home That's ",
       titleItalic: 'Truly Yours.',
       supportingText: siteConfig.supportingText,
       primaryCtaText: 'Plan Your Home',
@@ -233,7 +233,7 @@ const defaultInitialContent: CmsDatabase = {
       secondaryCtaText: 'Explore Our Homes',
       secondaryCtaLink: '/projects/',
       bgVideoUrl: '/video/hero-house.mp4',
-      bgPosterUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85',
+      bgPosterUrl: '/images/hero-poster.svg',
     },
     trustStrip: {
       stat1Number: '100%',
@@ -248,11 +248,11 @@ const defaultInitialContent: CmsDatabase = {
     brandIntro: {
       eyebrow: 'The Aley Way Philosophy',
       title: 'Building Without Secrets.',
-      quote: '“We founded Aley Way Construction because custom homebuilding should feel like a trusted partnership, not an adversarial negotiation.”',
+      quote: '“ We founded Aley Way Construction because custom homebuilding should feel like a trusted partnership, not an adversarial negotiation.”',
       body1: 'Too many homebuilders conceal subcontractor pricing behind opaque allowances and inflated change orders. When selections deviate from a generic catalog, homeowners are handed unexpected surcharges.',
       body2: 'Derek and Xiochil Blades run Aley Way Construction with open-book transparency. You see every subcontractor quote, wholesale material receipt, and trade discount. Our builder fee is fixed and clear upfront.',
       foundersNote: 'Derek & Xiochil Blades — Founders & Principal Builders',
-      imageUrl: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85',
+      imageUrl: '/images/about/about.png',
     },
     customHomesPreview: {
       eyebrow: 'Bespoke Residential',
@@ -260,13 +260,13 @@ const defaultInitialContent: CmsDatabase = {
       description: 'We don’t modify mass-builder plans. We design from a blank canvas to honor natural light, wind patterns, and family lifestyle.',
       card1Title: 'Site & Orientation Planning',
       card1Text: 'Engineered for optimal daylight, natural shade, and Sedgwick County soil characteristics.',
-      card1Image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=85',
+      card1Image: '/images/placeholder.webp',
       card2Title: 'Authentic Materials & Millwork',
       card2Text: 'Rift-sawn white oak, native Kansas limestone, standing seam metal accents, and durable high-efficiency envelopes.',
-      card2Image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=85',
+      card2Image: '/images/placeholder.webp',
       card3Title: 'Living Flow & Proportions',
       card3Text: 'Sightlines connecting open living pavilions with private retreat wings, drop zones, and sculleries.',
-      card3Image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=85',
+      card3Image: '/images/placeholder.webp',
     },
     openBookPreview: {
       eyebrow: 'Financial Transparency',
@@ -290,7 +290,7 @@ const defaultInitialContent: CmsDatabase = {
         { label: 'Schools', value: 'Valley Center USD 262' },
         { label: 'Pricing', value: 'Open-Book Cost Plus' },
       ],
-      imageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85',
+      imageUrl: '/images/placeholder.webp',
     },
     finalCta: {
       eyebrow: 'Direct Consultation',
@@ -300,19 +300,18 @@ const defaultInitialContent: CmsDatabase = {
       secondaryButtonText: 'Explore Arbor Valley',
     },
   },
-
   customHomes: {
     heroTitle: 'Custom Homes Crafted for How You Truly Live.',
     heroSubtitle: 'Bespoke residential architecture, engineered foundations, and uncompromising craft in Wichita & Valley Center, KS.',
     heroEyebrow: 'Residential Architecture',
-    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85',
+    heroImage: '/images/placeholder.webp',
     sections: [
       {
         id: 'what-custom-means',
         title: 'What Custom Means',
         tagline: 'Tailored Without Compromise',
         description: 'At Aley Way Construction, custom does not mean modifying three paint colors on a mass-builder plan book. Custom means designing from a blank sheet of trace paper, calibrated around your property’s solar orientation, topography, and the specific daily rhythms of your family.',
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85',
+        image: '/images/placeholder.webp',
         category: 'Philosophy',
       },
       {
@@ -320,7 +319,7 @@ const defaultInitialContent: CmsDatabase = {
         title: 'Design & Space Planning',
         tagline: 'Living Flow, Natural Light & Proportions',
         description: 'We prioritize sightlines that connect indoor living rooms with the open Kansas horizon. Ceilings are dimensioned for volume, windows are positioned for cross-ventilation, and functional zones (sculleries, drop zones, acoustics) are designed intentionally.',
-        image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85',
+        image: '/images/placeholder.webp',
         category: 'Architecture',
       },
       {
@@ -328,7 +327,7 @@ const defaultInitialContent: CmsDatabase = {
         title: 'Materials & Finish Quality',
         tagline: 'Authentic Textures Built for Longevity',
         description: 'We favor authentic regional materials: hand-selected native Kansas limestone, rift-sawn white oak millwork, standing-seam metal accents, and commercial-grade waterproof underlayments that withstand Midwest hail and freeze-thaw cycles.',
-        image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85',
+        image: '/images/placeholder.webp',
         category: 'Materials',
       },
       {
@@ -336,7 +335,7 @@ const defaultInitialContent: CmsDatabase = {
         title: 'Construction & Foundation Integrity',
         tagline: 'Engineered for Sedgwick County Soils',
         description: 'Kansas clay can cause severe foundation movement if not engineered properly. We perform soil analysis for every homesite, utilizing reinforced poured concrete footings, deep gravel backfills, and robust waterproofing membranes.',
-        image: 'https://images.unsplash.com/photo-1541888946425-d0fbb1861593?auto=format&fit=crop&w=1200&q=85',
+        image: '/images/placeholder.webp',
         category: 'Engineering',
       },
       {
@@ -344,7 +343,7 @@ const defaultInitialContent: CmsDatabase = {
         title: 'Direct Builder Communication',
         tagline: 'No Middlemen or Runaround',
         description: 'Derek and Xiochil Blades manage your project directly. You receive weekly photo digests, live schedule updates, and clear approval checkpoints before any trade begins work.',
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=85',
+        image: '/images/placeholder.webp',
         category: 'Service',
       },
     ],
@@ -353,12 +352,11 @@ const defaultInitialContent: CmsDatabase = {
     ctaTitle: 'Ready to Design Your Home?',
     ctaSubtitle: 'Discuss your lot, layout vision, and budget directly with principals Derek and Xiochil.',
   },
-
   process: {
     heroTitle: 'A Structured, Transparent Building Journey.',
     heroSubtitle: 'From initial vision and homesite evaluation through design, open-book budgeting, and turnkey handover.',
     heroEyebrow: 'The 8-Phase Methodology',
-    heroBgImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb1861593?auto=format&fit=crop&w=2000&q=85',
+    heroBgImage: '/images/gallery/03.jpg',
     phases: [
       {
         id: 'phase-01',
@@ -369,7 +367,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Your preferred architectural aesthetic, essential room count, square-footage target, and comfort range for the total build budget.',
         handles: 'Pre-qualification evaluation, budget alignment review, and initial project feasibility assessment in Sedgwick County.',
         next: 'Site evaluation on your land or selecting an available homesite in Arbor Valley.',
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
       {
         id: 'phase-02',
@@ -380,7 +378,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Final selection of homesite, preferred house orientation facing sunrise/sunset, and desired driveway positioning.',
         handles: 'Site visits, zoning setback checks, utility availability coordination, and preliminary foundation type guidance.',
         next: 'Collaborative architectural design and floorplan development.',
-        image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
       {
         id: 'phase-03',
@@ -391,7 +389,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Interior layout flow, kitchen island dimensions, electrical layouts, window package style, and roofline profiles.',
         handles: 'Drafting coordination, structural engineering review, and local municipal building code compliance.',
         next: 'Compiling line-by-line open-book budget estimates.',
-        image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
       {
         id: 'phase-04',
@@ -402,7 +400,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Finish allowances (cabinets, countertops, plumbing fixtures, flooring) and value-engineering trade-offs.',
         handles: 'Subcontractor scoping, volume material pricing discounts passed through to you, and establishing the fixed builder management fee.',
         next: 'Securing construction loan approval and closing.',
-        image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/gallery/03.jpg',
       },
       {
         id: 'phase-05',
@@ -413,7 +411,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Selection of lending partner and loan structure (construction-to-permanent vs. standalone).',
         handles: 'Providing line-item specifications, builder licensing verification, insurance certificates, and draw milestone calendars to the bank.',
         next: 'Permitting and physical site excavation.',
-        image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
       {
         id: 'phase-06',
@@ -424,7 +422,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Final sign-off on construction documents and color selection schedules.',
         handles: 'Building permit procurement, HOA architectural review submissions, utility service orders, and site survey stakes.',
         next: 'Excavation and foundation pour.',
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
       {
         id: 'phase-07',
@@ -435,7 +433,7 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Weekly finish selections, low-voltage walkthrough placement, and fixture approvals.',
         handles: 'Daily trade management, quality control audits, municipal milestone inspections, and weekly photographic digests.',
         next: 'Punch list and final cleaning.',
-        image: 'https://images.unsplash.com/photo-1541888946425-d0fbb1861593?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
       {
         id: 'phase-08',
@@ -446,13 +444,11 @@ const defaultInitialContent: CmsDatabase = {
         decide: 'Final approval of cosmetic details, key handover date, and initial warranty walkthrough schedule.',
         handles: 'Certificate of Occupancy procurement, deep professional cleaning, mechanical operation manuals binder, and keys handover.',
         next: 'Enjoying your custom home backed by warranty support.',
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+        image: '/images/placeholder.webp',
       },
     ],
   },
-
   projects: defaultProjects,
-
   gallery: {
     heroTitle: 'Architectural Gallery & Field Archive.',
     heroSubtitle: 'A curated visual record of custom craftsmanship, framing tolerances, millwork, and living spaces.',
@@ -466,31 +462,30 @@ const defaultInitialContent: CmsDatabase = {
       { id: 'craftsmanship', label: 'Craftsmanship & Framing', value: 'craftsmanship' },
     ],
   },
-
   about: {
     heroTitle: 'Built by People Who Care About the Details.',
     heroSubtitle: 'Aley Way Construction LLC was established on a single foundational premise: homeowners should never feel like an anonymous project number.',
     heroEyebrow: 'Leadership & Ethos',
-    heroBgImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85',
+    heroBgImage: '/images/about/about.png',
     storyEyebrow: 'Origin & Foundation',
     storyTitle: 'Our Story.',
     storyParagraph1: 'In the Kansas residential construction market, building a custom home too often degenerates into a frustrating tug-of-war: cryptic allowances, surprise change orders, and layers of sales representatives separating the client from the person actually swinging the hammer.',
     storyParagraph2: 'Derek and Xiochil Blades founded Aley Way Construction LLC to restore trust and clarity to custom homebuilding. By managing an intentional volume of residential builds each year across Wichita, Valley Center, and Sedgwick County, Aley Way ensures that every project receives direct, principal-led leadership from site walk to move-in.',
-    storyImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=85',
+    storyImage: '/images/about/about.png',
     founders: [
       {
         id: 'derek-blades',
         name: 'Derek Blades',
         role: 'Co-Founder & General Contractor',
         bio: 'Directs on-site craftsmanship, construction methodology, trade partner management, structural engineering compliance, and open-book cost control.',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=85',
+        image: '/images/about/derek1.png',
       },
       {
         id: 'xiochil-blades',
         name: 'Xiochil Blades',
         role: 'Co-Founder & Client Experience',
         bio: 'Oversees homeowner collaboration, architectural selections, schedule transparency, finish specification, and client communication.',
-        image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=85',
+        image: '/images/about/xiochil1.png',
       },
     ],
     values: [
@@ -511,9 +506,7 @@ const defaultInitialContent: CmsDatabase = {
       },
     ],
   },
-
   resources: defaultResources,
-
   contact: {
     heroTitle: 'Let’s Talk About Your Home.',
     heroSubtitle: 'Every inquiry is reviewed directly by founders Derek and Xiochil Blades. We look forward to exploring your land, architecture, and timeline.',
@@ -540,12 +533,11 @@ const defaultInitialContent: CmsDatabase = {
       { id: 'f-description', name: 'projectDescription', label: 'Project Vision / Special Requirements', type: 'textarea', required: false, enabled: true, placeholder: 'Tell us about your home vision, architectural style, or specific needs...' },
     ],
   },
-
   openBookPricing: {
     heroTitle: 'Open-Book Pricing Explained.',
     heroSubtitle: 'How real-time subcontractor invoices, wholesale materials, and an agreed builder management fee remove the adversarial tension from custom building.',
     heroEyebrow: 'Radical Financial Transparency',
-    heroImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=2000&q=85',
+    heroImage: '/images/placeholder.webp',
     introTitle: 'Why Transparent Building Protects Your Budget',
     introDescription: 'Under our open-book model, every subcontract, material invoice, and labor ticket is 100% visible to you. You pay actual hard construction costs plus an agreed, transparent professional builder management fee.',
     pillars: [
@@ -594,7 +586,6 @@ const defaultInitialContent: CmsDatabase = {
     ],
     fixedFeeExplanation: 'Our compensation is established as an agreed-upon builder fee, not a percentage that increases when you choose higher-end finishes.',
   },
-
   privacy: {
     title: 'Privacy Policy',
     eyebrow: 'Data Governance & Consumer Trust',
@@ -623,7 +614,6 @@ const defaultInitialContent: CmsDatabase = {
       },
     ],
   },
-
   terms: {
     title: 'Terms of Service',
     eyebrow: 'Legal Terms & Architectural Agreement',
@@ -695,14 +685,12 @@ export const contentService = {
       return defaultInitialContent;
     }
   },
-
   saveAll(data: CmsDatabase): void {
     try {
       localStorage.setItem(CMS_STORAGE_KEY, JSON.stringify(data));
     } catch (e) {
       console.warn('LocalStorage quota limit reached or unavailable during CMS saveAll:', e);
       try {
-        // Attempt secondary save after warning
         localStorage.setItem(CMS_STORAGE_KEY, JSON.stringify(data));
       } catch (err2) {
         console.error('Critical storage quota exceeded during saveAll:', err2);
@@ -710,12 +698,10 @@ export const contentService = {
     }
     this.notify();
   },
-
   getPage<K extends keyof CmsDatabase>(pageKey: K): CmsDatabase[K] {
     const all = this.getAll();
     return all[pageKey];
   },
-
   updatePage<K extends keyof CmsDatabase>(pageKey: K, update: Partial<CmsDatabase[K]>): void {
     const all = this.getAll();
     all[pageKey] = {
@@ -724,24 +710,18 @@ export const contentService = {
     };
     this.saveAll(all);
   },
-
-  // Projects CRUD
   getProjects(): Project[] {
     return this.getAll().projects;
   },
-
   getProject(slug: string): Project | undefined {
     return this.getProjects().find((p) => p.slug === slug);
   },
-
   getProjectBySlug(slug: string): Project | undefined {
     return this.getProject(slug);
   },
-
   addProject(project: Project): void {
     this.saveProject(project);
   },
-
   saveProject(project: Project): void {
     const all = this.getAll();
     const index = all.projects.findIndex((p) => p.slug === project.slug);
@@ -752,26 +732,20 @@ export const contentService = {
     }
     this.saveAll(all);
   },
-
   deleteProject(slug: string): void {
     const all = this.getAll();
     all.projects = all.projects.filter((p) => p.slug !== slug);
     this.saveAll(all);
   },
-
-  // Resources CRUD
   getResources(): ResourceArticle[] {
     return this.getAll().resources;
   },
-
   getResource(slug: string): ResourceArticle | undefined {
     return this.getResources().find((r) => r.slug === slug);
   },
-
   addResource(resource: ResourceArticle): void {
     this.saveResource(resource);
   },
-
   saveResource(resource: ResourceArticle): void {
     const all = this.getAll();
     const index = all.resources.findIndex((r) => r.slug === resource.slug);
@@ -782,32 +756,26 @@ export const contentService = {
     }
     this.saveAll(all);
   },
-
   deleteResource(slug: string): void {
     const all = this.getAll();
     all.resources = all.resources.filter((r) => r.slug !== slug);
     this.saveAll(all);
   },
-
-  // Reset to original blueprint defaults
   resetPage(pageKey: keyof CmsDatabase): void {
     const all = this.getAll();
     (all[pageKey] as any) = JSON.parse(JSON.stringify(defaultInitialContent[pageKey]));
     this.saveAll(all);
   },
-
   resetAll(): void {
     localStorage.removeItem(CMS_STORAGE_KEY);
     this.notify();
   },
-
   subscribe(callback: Subscriber): () => void {
     subscribers.add(callback);
     return () => {
       subscribers.delete(callback);
     };
   },
-
   notify(): void {
     subscribers.forEach((cb) => {
       try {
